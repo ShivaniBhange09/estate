@@ -50,21 +50,21 @@ export default function Home() {
       {/* top */}
       <div className='flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto'>
         <h1 className='text-slate-700 font-bold text-3xl lg:text-6xl'>
-          Find your next <span className='text-slate-500'>perfect</span>
+          Surf your next <span className='text-slate-500'>perfect</span>
           <br />
-          place with ease
+          place here.
         </h1>
         <div className='text-gray-400 text-xs sm:text-sm'>
           Shivani Elite Estate is the best place to find your next perfect place to
           live.
           <br />
-          We have a wide range of properties for you to choose from.
+          "Welcome to our estate website, where dreams meet reality and tranquility finds its address. Explore our meticulously curated listings, each offering a unique blend of luxury, comfort, and sophistication. From sprawling countryside estates to chic urban retreats, we offer a diverse selection to cater to every discerning taste. Let us guide you on your journey to finding the perfect haven amidst stunning landscapes and unparalleled elegance. Your dream estate awaits, just a click away."
         </div>
         <Link
           to={'/search'}
           className='text-xs sm:text-sm text-blue-800 font-bold hover:underline'
         >
-          Let's get started...
+          Let's begin...
         </Link>
       </div>
 
